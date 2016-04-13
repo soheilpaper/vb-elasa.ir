@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- $Header: F:\CVS/4.x/Track-guests/includes/xml/bitfield_trg.xml,v 1.2 2010/12/04 22:50:02 Pem Exp $ -->
+<bitfields product="paulm_trg_40">
+<!-- Version 4.x -->
+<!-- $Revision: 1.2 $ -->
+	<bitfielddefs>
+		<group name="ugp">
+			<group name="trgpermissions">
+				<bitfield name="trgdisplay" group="trg_permissions"  phrase="trg_display">1</bitfield>
+				<bitfield name="trgviewip" group="trg_permissions"  phrase="trg_viewip">2</bitfield>
+				<bitfield name="trglist" group="trg_permissions"  phrase="trg_list">4</bitfield>
+				<bitfield name="trgtrack" group="trg_permissions"  phrase="trg_track">8</bitfield>
+			</group>
+		</group>
+	</bitfielddefs>
+</bitfields>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<bitfields product="dbtech_vbactivity">
+	<bitfielddefs>
+		<group name="ugp">
+			<group name="dbtech_vbactivitypermissions">
+				<bitfield name="canrequestmedal"					group="dbtech_vbactivity_general_permissions"					phrase="dbtech_vbactivity_can_request_medal"	install="2,3,4,5,6,7"	>4</bitfield>
+				<bitfield name="dbtech_vbactivity_requestdelay"		group="dbtech_vbactivity_general_permissions" intperm="true"	phrase="dbtech_vbactivity_request_delay"								>1</bitfield>
+				<bitfield name="cannominatemedal"					group="dbtech_vbactivity_general_permissions"					phrase="dbtech_vbactivity_can_nominate_medal"	install="2,3,4,5,6,7"	>8</bitfield>
+				<bitfield name="dbtech_vbactivity_nominatedelay"	group="dbtech_vbactivity_general_permissions" intperm="true"	phrase="dbtech_vbactivity_nominate_delay"								>1</bitfield>
+				<bitfield name="isexcluded"							group="dbtech_vbactivity_general_permissions"					phrase="dbtech_vbactivity_is_excluded"									>16</bitfield>				
+				<bitfield name="isexcluded_contests"				group="dbtech_vbactivity_general_permissions"					phrase="dbtech_vbactivity_is_excluded_contests"							>32</bitfield>				
+				<bitfield name="isexcluded_trophies"				group="dbtech_vbactivity_general_permissions"					phrase="dbtech_vbactivity_is_excluded_trophies"							>64</bitfield>				
+			</group>
+		</group>
+
+		<group name="nocache">
+			<group name="dbtech_vbactivity_medal_availability">
+				<bitfield name="dbtech_vbactivity_requestable"				>1</bitfield>				
+				<bitfield name="dbtech_vbactivity_nominatable"				>2</bitfield>				
+			</group>
+			
+			<group name="dbtech_vbactivity_notifications">
+				<bitfield name="dbtech_vbactivity_trophies"					>2</bitfield>
+				<bitfield name="dbtech_vbactivity_promotions"				>8</bitfield>
+			</group>
+			
+			<group name="dbtech_vbactivity_trophy">
+				<bitfield name="dbtech_vbactivity_before_username"			>1</bitfield>
+				<bitfield name="dbtech_vbactivity_after_username"			>2</bitfield>
+			</group>
+			
+			<group name="dbtech_vbactivity_stats_storage">
+				<bitfield name="dbtech_vbactivity_daily_activity"			>1</bitfield>
+				<bitfield name="dbtech_vbactivity_weekly_activity"			>2</bitfield>
+				<bitfield name="dbtech_vbactivity_monthly_activity"			>4</bitfield>
+			</group>
+			
+			<group name="dbtech_vbactivity_stats_postbit">
+				<bitfield name="dbtech_vbactivity_daily_activity"			>1</bitfield>
+				<bitfield name="dbtech_vbactivity_weekly_activity"			>2</bitfield>
+				<bitfield name="dbtech_vbactivity_monthly_activity"			>4</bitfield>
+			</group>
+			
+			<group name="dbtech_vbactivity_bars">
+				<bitfield name="dbtech_vbactivity_daily_activity"			>1</bitfield>
+				<bitfield name="dbtech_vbactivity_weekly_activity"			>2</bitfield>
+				<bitfield name="dbtech_vbactivity_monthly_activity"			>4</bitfield>
+			</group>
+			
+			<group name="dbtech_vbactivity_display_settings">		
+				<bitfield name="dbtech_vbactivity_disable_daily_activity"	>16</bitfield>
+				<bitfield name="dbtech_vbactivity_disable_monthly_activity"	>64</bitfield>
+				<bitfield name="dbtech_vbactivity_disable_achievement"		>8192</bitfield>
+				<bitfield name="dbtech_vbactivity_disable_medal"			>16384</bitfield>
+				<bitfield name="dbtech_vbactivity_disable_trophy"			>32768</bitfield>
+			</group>
+			
+			<group name="dbtech_vbactivity_notification_settings">
+				<bitfield name="dbtech_vbactivity_hide_achievements"		>256</bitfield>
+				<bitfield name="dbtech_vbactivity_hide_trophies"			>512</bitfield>
+				<bitfield name="dbtech_vbactivity_hide_medals"				>1024</bitfield>
+				<!--
+				<bitfield name="dbtech_vbactivity_hide_promotions"			>2048</bitfield>
+				-->
+				<bitfield name="dbtech_vbactivity_prevent_pms"				>4096</bitfield>
+			</group>			
+		</group>
+	</bitfielddefs>
+</bitfields>

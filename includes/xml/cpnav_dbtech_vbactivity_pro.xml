@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<navgroups product="dbtech_vbactivity">
+
+	<navgroup phrase="dbtech_vbactivity_short" permissions="canadminvbactivity" hr="true" displayorder="16">
+		
+		<navoption displayorder="50">
+			<phrase>dbtech_vbactivity_manage_trophies</phrase>
+			<link>vbactivity.php?do=trophy</link>
+		</navoption>
+		
+		<navoption displayorder="53">
+			<phrase>dbtech_vbactivity_activity_contests</phrase>
+			<link>vbactivity.php?do=contest</link>
+		</navoption>
+		
+		<navoption displayorder="60">
+			<phrase>dbtech_vbactivity_manage_promotions</phrase>
+			<link>vbactivity.php?do=promotion</link>
+		</navoption>		
+		
+		<navoption displayorder="70">
+			<phrase>dbtech_vbactivity_manage_backups</phrase>
+			<link>vbactivity.php?do=backup</link>
+		</navoption>		
+		
+		<navoption displayorder="80">
+			<phrase>dbtech_vbactivity_manage_snapshots</phrase>
+			<link>vbactivity.php?do=snapshot</link>
+		</navoption>		
+		
+		<navoption displayorder="90">
+			<phrase>dbtech_vbactivity_manage_snapshot_schedules</phrase>
+			<link>vbactivity.php?do=snapshot&amp;action=schedule</link>
+		</navoption>		
+		
+		<navoption displayorder="91">
+			<phrase>dbtech_vbactivity_impex</phrase>
+			<link>vbactivity.php?do=impex</link>
+		</navoption>		
+		
+		<navoption displayorder="95">
+			<phrase>dbtech_vbactivity_statistics</phrase>
+			<link>vbactivity.php?do=statistics</link>
+		</navoption>		
+		
+	</navgroup>
+	
+</navgroups>

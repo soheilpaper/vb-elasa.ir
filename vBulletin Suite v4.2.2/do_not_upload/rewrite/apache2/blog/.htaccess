@@ -1,0 +1,20 @@
+RewriteEngine on
+
+# This file is only needed if you have set the Blog URL in your admincp and you are 
+# using the mod_rewrite option for friendly urls.  If this is the case, copy this file
+# to your blog stub directory. 
+
+# If you are having problems or are using VirtualDocumentRoot, uncomment this line and set it to your blog stub directory.
+# RewriteBase /blog-stub-directory/
+
+# If you are having problems with the rewrite from content/ to content.php, uncomment this line to turn MultiViews off.
+# Options -MultiViews
+
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -l [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+
+RewriteRule ^.*$ - [NC,L]
+
+RewriteRule ^blogs/.* blog.php [QSA]
+RewriteRule ^entries/.* entry.php [QSA]

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<navgroups product="dbtech_livewall">
+
+	<navgroup phrase="dbtech_livewall" permissions="canadminlivewall" hr="true" displayorder="16">
+		
+		<navoption displayorder="20">
+			<phrase>dbtech_livewall_manage_contenttypes</phrase>
+			<link>livewall.php?do=contenttype</link>
+		</navoption>
+		
+		<navoption displayorder="100">
+			<phrase>dbtech_livewall_permissions</phrase>
+			<link>livewall.php?do=permissions</link>
+		</navoption>
+
+		<navoption displayorder="110">
+			<phrase>dbtech_livewall_repair_cache</phrase>
+			<link>livewall.php?do=repaircache</link>
+		</navoption>		
+				
+		<navoption displayorder="9001">
+			<phrase>dbtech_livewall_settings</phrase>
+			<link>livewall.php?do=options</link>
+		</navoption>
+		
+	</navgroup>
+	
+</navgroups>

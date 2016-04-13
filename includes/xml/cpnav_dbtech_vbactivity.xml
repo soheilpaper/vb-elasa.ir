@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<navgroups product="dbtech_vbactivity">
+
+	<navgroup phrase="dbtech_vbactivity_short" permissions="canadminvbactivity" hr="true" displayorder="16">
+		<navoption displayorder="10">
+			<phrase>dbtech_vbactivity_manage_achievements</phrase>
+			<link>vbactivity.php?do=achievement</link>
+		</navoption>
+		
+		<navoption displayorder="40">
+			<phrase>dbtech_vbactivity_manage_categories</phrase>
+			<link>vbactivity.php?do=category</link>
+		</navoption>
+		
+		<navoption displayorder="50">
+			<phrase>dbtech_vbactivity_manage_conditions</phrase>
+			<link>vbactivity.php?do=criteria</link>
+		</navoption>
+		
+		<navoption displayorder="51">
+			<phrase>dbtech_vbactivity_manage_medals</phrase>
+			<link>vbactivity.php?do=award</link>
+		</navoption>
+		
+		<navoption displayorder="52">
+			<phrase>dbtech_vbactivity_medal_req_nom</phrase>
+			<link>vbactivity.php?do=awardrequests</link>
+		</navoption>
+				
+		<navoption displayorder="100">
+			<phrase>maintenance</phrase>
+			<link>vbactivity.php?do=maintenance</link>
+		</navoption>
+		
+		<navoption displayorder="1000">
+			<phrase>dbtech_vbactivity_points_settings</phrase>
+			<link>vbactivity.php?do=points</link>
+		</navoption>
+		
+		<navoption displayorder="8999">
+			<phrase>dbtech_vbactivity_permissions</phrase>
+			<link>vbactivity.php?do=permissions</link>
+		</navoption>
+		
+		<navoption displayorder="9000">
+			<phrase>dbtech_vbactivity_repair_cache</phrase>
+			<link>vbactivity.php?do=repaircache</link>
+		</navoption>
+		
+		<navoption displayorder="9001">
+			<text>Settings</text>
+			<link>vbactivity.php?do=options</link>
+		</navoption>
+		
+	</navgroup>
+	
+	<!--
+	<navgroup phrase="maintenance" permissions="canadminmaintain" hr="true" displayorder="250">
+		<navoption displayorder="31">
+			<phrase>dbtech_vbactivity_maintenance</phrase>
+			<link>vbactivity.php?do=maintenance</link>
+		</navoption>
+	</navgroup>
+	-->
+</navgroups>

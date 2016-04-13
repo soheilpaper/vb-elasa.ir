@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<bitfields product="dbtech_livewall">
+	<bitfielddefs>
+		<group name="ugp">
+			<group name="dbtech_livewallpermissions">
+				<bitfield name="canview"					group="dbtech_livewall_general_permissions"	phrase="dbtech_livewall_can_view_live_wall"			>1</bitfield>
+				<bitfield name="canviewuserwall"			group="dbtech_livewall_general_permissions"	phrase="dbtech_livewall_can_view_user_wall"			>2</bitfield>
+				<bitfield name="canmanagestatus"			group="dbtech_livewall_general_permissions"	phrase="dbtech_livewall_can_manage_own_statuses"	>16</bitfield>
+				<bitfield name="canmanageothersstatuses"	group="dbtech_livewall_general_permissions"	phrase="dbtech_livewall_can_manage_others_statuses"	>32</bitfield>
+			</group>
+		</group>
+		
+		<group name="nocache">
+			<group name="dbtech_livewall_integration">
+				<bitfield name="dbtech_livewall_quicklinks"		>1</bitfield>				
+				<bitfield name="dbtech_livewall_community"			>2</bitfield>				
+			</group>
+			
+			<group name="dbtech_livewall_postbit">
+				<!--<bitfield name="dbtech_livewall_below_rank"		>1</bitfield>-->
+				<bitfield name="dbtech_livewall_below_postcount"	>2</bitfield>				
+				<!--<bitfield name="dbtech_livewall_below_reputation"	>4</bitfield>-->			
+				<!--<bitfield name="dbtech_livewall_before_signature"	>8</bitfield>				
+				<bitfield name="dbtech_livewall_after_signature"	>16</bitfield>-->
+			</group>
+		</group>
+		
+		<group name="misc">
+			<group name="dbtech_livewalladminperms">
+				<bitfield name="canadminlivewall"					>1</bitfield>
+			</group>
+		</group>
+		
+	</bitfielddefs>
+</bitfields>

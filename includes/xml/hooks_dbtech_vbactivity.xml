@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<hooks>
+
+	<hooktype type="dbtech_vbactivity_main">
+		<hook>dbtech_vbactivity_repaircache</hook>
+		<hook>dbtech_vbactivity_points_add</hook>
+	
+		<hook>dbtech_vbactivity_achievementdata_start</hook>
+		<hook>dbtech_vbactivity_achievementdata_predelete</hook>
+		<hook>dbtech_vbactivity_achievementdata_presave</hook>
+		<hook>dbtech_vbactivity_achievementdata_postsave</hook>
+		<hook>dbtech_vbactivity_achievementdata_delete</hook>	
+	
+		<hook>dbtech_vbactivity_categorydata_start</hook>
+		<hook>dbtech_vbactivity_categorydata_predelete</hook>
+		<hook>dbtech_vbactivity_categorydata_presave</hook>
+		<hook>dbtech_vbactivity_categorydata_postsave</hook>
+		<hook>dbtech_vbactivity_categorydata_delete</hook>	
+	
+		<hook>dbtech_vbactivity_conditiondata_start</hook>
+		<hook>dbtech_vbactivity_conditiondata_predelete</hook>
+		<hook>dbtech_vbactivity_conditiondata_presave</hook>
+		<hook>dbtech_vbactivity_conditiondata_postsave</hook>
+		<hook>dbtech_vbactivity_conditiondata_delete</hook>	
+	
+		<hook>dbtech_vbactivity_medaldata_start</hook>
+		<hook>dbtech_vbactivity_medaldata_predelete</hook>
+		<hook>dbtech_vbactivity_medaldata_presave</hook>
+		<hook>dbtech_vbactivity_medaldata_postsave</hook>
+		<hook>dbtech_vbactivity_medaldata_delete</hook>	
+	
+		<hook>dbtech_vbactivity_typedata_start</hook>
+		<hook>dbtech_vbactivity_typedata_predelete</hook>
+		<hook>dbtech_vbactivity_typedata_presave</hook>
+		<hook>dbtech_vbactivity_typedata_postsave</hook>
+		<hook>dbtech_vbactivity_typedata_delete</hook>	
+
+		<hook>dbtech_vbactivity_add_medal_admin</hook>
+		<hook>dbtech_vbactivity_add_reward_end</hook>
+		<hook>dbtech_vbactivity_data_submit</hook>
+	</hooktype>
+	
+	<!--
+	<hookttype type="dbtech_vbshout_admin" admin="1">
+		<hook>dbtech_vbshout_admin_cmdlogviewer_query_loop</hook>
+	</hookttype>
+	-->
+	
+</hooks>

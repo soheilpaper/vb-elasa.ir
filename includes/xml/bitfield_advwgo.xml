@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bitfields product="usml_advwgo">
+	<bitfielddefs>
+		<group name="ugp">
+			<group name="usmlwgoperms">
+				<bitfield name="canviewwgo" group="usml_advwgo_permissions" phrase="usml_advwgo_canview_wgo">1</bitfield>
+				<bitfield name="canviewonline" group="usml_advwgo_permissions" phrase="usml_advwgo_canview_onlineusers">2</bitfield>
+				<bitfield name="canviewevents" group="usml_advwgo_permissions" phrase="usml_advwgo_canview_events">4</bitfield>
+				<bitfield name="canviewbdays" group="usml_advwgo_permissions" phrase="usml_advwgo_canview_birthdays">8</bitfield>
+				<bitfield name="canviewstats" group="usml_advwgo_permissions" phrase="usml_advwgo_canview_stats">16</bitfield>
+				<bitfield name="canviewlegend" group="usml_advwgo_permissions" phrase="usml_advwgo_canview_legend">32</bitfield>
+			</group>
+		</group>
+	</bitfielddefs>
+</bitfields>

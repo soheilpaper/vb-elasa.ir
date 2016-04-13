@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<bitfields product="dbtech_vbactivity">
+	<bitfielddefs>
+		<group name="ugp">
+			<group name="dbtech_vbactivitypermissions">
+				<bitfield name="canview"		group="dbtech_vbactivity_general_permissions"	phrase="dbtech_vbactivity_can_view_activity"		install="2,3,4,5,6,7"	>2</bitfield>
+				<bitfield name="ismanager"		group="dbtech_vbactivity_general_permissions"	phrase="dbtech_vbactivity_is_manager"				install="6"				>1</bitfield>
+			</group>
+			<group name="dbtech_vbactivitymodpermissions">
+				<bitfield name="achievement"	group="dbtech_vbactivity_modcp_permissions"		phrase="dbtech_vbactivity_can_manage_achievements"							>1</bitfield>
+				<bitfield name="category"		group="dbtech_vbactivity_modcp_permissions"		phrase="dbtech_vbactivity_can_manage_category"								>2</bitfield>
+				<bitfield name="criteria"		group="dbtech_vbactivity_modcp_permissions"		phrase="dbtech_vbactivity_can_manage_criteria"								>4</bitfield>
+				<bitfield name="award"			group="dbtech_vbactivity_modcp_permissions"		phrase="dbtech_vbactivity_can_manage_award"									>8</bitfield>
+				<bitfield name="grantawards"	group="dbtech_vbactivity_modcp_permissions"		phrase="dbtech_vbactivity_can_manage_grantawards"							>16</bitfield>
+				<bitfield name="maintenance"	group="dbtech_vbactivity_modcp_permissions"		phrase="dbtech_vbactivity_can_manage_maintenance"							>32</bitfield>
+				<!-- /*DBTECH_PRO_START*/ -->
+				<bitfield name="trophy"			group="dbtech_vbactivity_modcp_permissions"		phrase="dbtech_vbactivity_can_manage_trophy"								>64</bitfield>
+				<bitfield name="contest"		group="dbtech_vbactivity_modcp_permissions"		phrase="dbtech_vbactivity_can_manage_contest"								>128</bitfield>
+				<bitfield name="promotion"		group="dbtech_vbactivity_modcp_permissions"		phrase="dbtech_vbactivity_can_manage_promotion"								>256</bitfield>
+				<bitfield name="backup"			group="dbtech_vbactivity_modcp_permissions"		phrase="dbtech_vbactivity_can_manage_backup"								>512</bitfield>
+				<bitfield name="snapshot"		group="dbtech_vbactivity_modcp_permissions"		phrase="dbtech_vbactivity_can_manage_snapshot"								>1024</bitfield>
+				<bitfield name="impex"			group="dbtech_vbactivity_modcp_permissions"		phrase="dbtech_vbactivity_can_manage_impex"									>2048</bitfield>
+				<!-- /*DBTECH_PRO_END*/ -->
+				<bitfield name="points"			group="dbtech_vbactivity_modcp_permissions"		phrase="dbtech_vbactivity_can_manage_points"								>4096</bitfield>
+				<bitfield name="permissions"	group="dbtech_vbactivity_modcp_permissions"		phrase="dbtech_vbactivity_can_manage_permissions"							>8192</bitfield>
+				<bitfield name="options"		group="dbtech_vbactivity_modcp_permissions"		phrase="dbtech_vbactivity_can_manage_options"								>16384</bitfield>
+			</group>
+		</group>
+		
+		<group name="nocache">
+			
+			<group name="dbtech_vbactivity_points_display">
+				<bitfield name="dbtech_vbactivity_profile"			>1</bitfield>
+				<bitfield name="dbtech_vbactivity_activity"			>2</bitfield>
+				<bitfield name="dbtech_vbactivity_leaderboards"		>4</bitfield>
+			</group>
+			
+			<group name="dbtech_vbactivity_points_settings">
+				<bitfield name="dbtech_vbactivity_points_settings"	>1</bitfield>
+				<bitfield name="dbtech_vbactivity_snapshot"			>2</bitfield>
+				<bitfield name="dbtech_vbactivity_trophy"			>4</bitfield>
+				<bitfield name="dbtech_vbactivity_points"			>8</bitfield>
+				<bitfield name="dbtech_vbactivity_default"			>16</bitfield>
+				<bitfield name="dbtech_vbactivity_showforumpoints"	>32</bitfield>
+				<bitfield name="dbtech_vbactivity_forumcriteria"	>64</bitfield>
+			</group>
+			
+			<group name="dbtech_vbactivity_integration">
+				<bitfield name="dbtech_vbactivity_quicklinks"		>1</bitfield>
+				<bitfield name="dbtech_vbactivity_community"		>2</bitfield>
+				<!-- /*DBTECH_PRO_START*/ -->
+				<bitfield name="dbtech_vbactivity_memberaction"		>4</bitfield>
+				<!-- /*DBTECH_PRO_END*/ -->
+			</group>
+			
+			<group name="dbtech_vbactivity_notifications">
+				<bitfield name="dbtech_vbactivity_achievements"		>1</bitfield>
+				<bitfield name="dbtech_vbactivity_medals"			>4</bitfield>
+			</group>
+			
+			<group name="dbtech_vbactivity_profile">
+				<bitfield name="dbtech_vbactivity_integrated"		>1</bitfield>
+				<!--<bitfield name="dbtech_vbactivity_sidebar"			>2</bitfield>-->
+			</group>
+			
+			<group name="dbtech_vbactivity_postbit">
+				<!--<bitfield name="dbtech_vbactivity_below_rank"		>1</bitfield>-->
+				<bitfield name="dbtech_vbactivity_below_postcount"	>2</bitfield>
+				<!--<bitfield name="dbtech_vbactivity_below_reputation"	>4</bitfield>-->
+				<!--<bitfield name="dbtech_vbactivity_before_signature"	>8</bitfield>
+				<bitfield name="dbtech_vbactivity_after_signature"	>16</bitfield>-->
+			</group>
+			
+			<!--
+			<group name="dbtech_vbactivity_general_settings">
+				<bitfield name="dbtech_vbactivity_autocollapse_stats"	>1</bitfield>
+				<bitfield name="dbtech_vbactivity_autocollapse_bar"		>2</bitfield>
+			</group>
+			-->
+			
+			<group name="dbtech_vbactivity_display_settings">
+				<bitfield name="dbtech_vbactivity_disable_points"			>4</bitfield>
+				<bitfield name="dbtech_vbactivity_disable_level"			>8</bitfield>
+				<bitfield name="dbtech_vbactivity_disable_level_percent"	>128</bitfield>
+				<bitfield name="dbtech_vbactivity_disable_weekly_activity"	>32</bitfield>
+			</group>
+			
+		</group>		
+		
+		<group name="misc">
+			<group name="dbtech_vbactivityadminperms">
+				<bitfield name="canadminvbactivity">1</bitfield>
+			</group>
+		</group>
+	</bitfielddefs>
+</bitfields>

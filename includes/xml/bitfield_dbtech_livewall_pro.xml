@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<bitfields product="dbtech_livewall">
+	<bitfielddefs>
+		<group name="ugp">
+			<group name="dbtech_livewallpermissions">
+				<bitfield name="candeletecomments"			group="dbtech_livewall_general_permissions"	phrase="dbtech_livewall_can_delete_own_comments"	>4</bitfield>
+				<bitfield name="candeleteotherscomments"	group="dbtech_livewall_general_permissions"	phrase="dbtech_livewall_can_delete_others_comments"	>8</bitfield>
+			</group>
+		</group>
+		
+	</bitfielddefs>
+</bitfields>
